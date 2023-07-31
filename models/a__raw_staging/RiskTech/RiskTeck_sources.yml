@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: risktech
+    description: sample risktech data
+    database: DATA_VAULT
+    schema: RISKTECH
+    tables:
+      - name: CLAIM
+        identifier: sample_risktech_claim
+        description: RiskTech Claim
