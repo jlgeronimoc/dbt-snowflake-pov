@@ -7,5 +7,5 @@ sources:
     schema: RISKTECH
     tables:
       - name: CLAIM
-        identifier: sample_risktech_claim
+        identifier: CLAIM
         description: RiskTech Claim
