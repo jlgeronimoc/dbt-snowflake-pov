@@ -3,7 +3,7 @@
 {%- set yaml_metadata -%}
 source_model: stg_risktech__CLAIM
 derived_columns:
-  RECORD_SOURCE: "!RISKTECH_CLAIM"
+  RECORD_SOURCE: "!RISKTECH-CLAIM"
   LOAD_DATETIME: "datecreated"
   EFFECTIVE_FROM: "dateupdated"
   START_DATE: "dateupdated"
