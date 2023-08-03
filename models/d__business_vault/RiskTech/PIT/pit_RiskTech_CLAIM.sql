@@ -3,9 +3,9 @@
 {%- set yaml_metadata -%}
 source_model: hub_claim
 src_pk: CLAIM_HK
-as_of_dates_table: AS_OF_DATE
+as_of_dates_table: as_of_date
 satellites: 
-  SAT_CLAIM_DETAILS:
+  sat_claim_details:
     pk:
       PK: CLAIM_HK
     ldts:
